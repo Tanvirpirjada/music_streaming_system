@@ -1,5 +1,5 @@
 # Music Streaming System
- *This project is a Java and Spring Boot based music streaming system. The project utilizes the MVC (Model-View-Controller) architecture to ensure that the code is modular and easily readable. The music streaming system has two models, the admin and user, and their respective permissions to perform CRUD (Create, Read, Update, Delete) operations on songs and playlists.
+ * This project is a Java and Spring Boot based music streaming system. The project utilizes the MVC (Model-View-Controller) architecture to ensure that the code is modular and easily readable. The music streaming system has two models, the admin and user, and their respective permissions to perform CRUD (Create, Read, Update, Delete) operations on songs and playlists.
 
 # Technologies Used
  The following technologies were used to build this music streaming system:
