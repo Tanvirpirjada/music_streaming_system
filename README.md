@@ -4,7 +4,7 @@ design music_streaming_system using Springboot
 
 * This is a java and Springboot based Music_streaming-Syastem.In this project We Used MVC Architacture Which halp us to make out code more modular and more readable.We design music_streaming_system where wthe admine has authority to apply crud operations on songs like admin able to save song , delete song, update song, get or read song.And there is secound model user which is map with playlist model and user only have permission to do crud on his play list
 
-# Use dFreamework And languages
+# Used Framework And languages
 * SprignBoot
 * Java 
 * Mysql database/sql
@@ -32,7 +32,7 @@ design music_streaming_system using Springboot
 
 # Requests And Endpoins urls
 
-* swageer Deployent url : http://65.2.94.104:8080/swagger-ui.html
+* swagger Deployment url : http://65.2.94.104:8080/swagger-ui.html
 
 * CreateAdmin : http://localhost:8080/saveAdmin
 
