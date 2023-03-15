@@ -2,7 +2,7 @@
 design music_streaming_system using Springboot
 
 
-* This is a java and Springboot based Music_streaming-Syastem.We design music_streaming_system where wthe admine has authority to apply crud operations on songs like admin able to save song , delete song, update song, get or read song.And there is secound model user which is map with playlist model and user only have permission to do crud on his play list
+* This is a java and Springboot based Music_streaming-Syastem.In this project We Used MVC Architacture Which halp us to make out code more modular and more readable.We design music_streaming_system where wthe admine has authority to apply crud operations on songs like admin able to save song , delete song, update song, get or read song.And there is secound model user which is map with playlist model and user only have permission to do crud on his play list
 
 # Use dFreamework And languages
 * SprignBoot
