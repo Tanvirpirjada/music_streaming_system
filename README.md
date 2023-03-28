@@ -28,37 +28,52 @@ With the help of Hibernate, we were able to connect to the database. For this pr
 # Request and Endpoint URLs
 Here are the request and endpoint URLs for the music streaming system:
 
-Swagger Deployment URL: http://65.2.94.104:8080/swagger-ui.html
+* Swagger Deployment URL
 
-Create Admin: http://localhost:8080/saveAdmin
+You can access the Swagger documentation for this API at the following URL:
 
-Get Admin: http://localhost:8080/getAdmin
+http://65.2.94.104:8080/swagger-ui.html
 
-Login Admin: http://localhost:8080/loginAdmin
+* Endpoints
 
-Save Song: http://localhost:8080/saveSong
+Here are the endpoints available in this API:
 
-Get Song: http://localhost:8080/getsong
+* Admin
 
-Update Song: http://localhost:8080/UpdateSong
+Create Admin: POST /saveAdmin
 
-Delete Song: http://localhost:8080/deletesong
+Get Admin: GET /getAdmin
 
-Create User: http://localhost:8080/saveSong
+Login Admin: POST /loginAdmin
 
-Get User: http://localhost:8080/getuser
+* Song
+Save Song: POST /saveSong
 
-Login User: http://localhost:8080/loginuser
+Get Song: GET /getsong
 
-Save Playlist: http://localhost:8080/saveplayList
+Update Song: PUT /UpdateSong
 
-Get Playlist: http://localhost:8080/getplaylis
+Delete Song: DELETE /deletesong
 
-Save Songlist/Update Songlist to Playlist: http://localhost:8080/saveSongs
+* User
 
-Delete Playlist: http://localhost:8080/deleteplaylist
+Create User: POST /saveUser
 
-Get Songlist from Playlist: http://localhost:8080/getsongs
+Get User: GET /getUser
+
+Login User: POST /loginUser
+
+* Playlist
+
+Save Playlist: POST /savePlaylist
+
+Get Playlist: GET /getPlaylist
+
+Save Songlist/Update Songlist to Playlist: PUT /saveSongs
+
+Delete Playlist: DELETE /deletePlaylist
+
+Get Songlist from Playlist: GET /getSongs
 
 # Project Summary
 In summary, this project is a music streaming system that allows two types of users, the admin and the user, to perform CRUD operations on songs and playlists. The project uses the MVC architecture to make the code modular and readable. It utilizes various technologies such as Spring Boot, Java, and MySQL database/SQL to provide an efficient and effective music streaming system.
