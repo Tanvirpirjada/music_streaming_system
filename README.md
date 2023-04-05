@@ -1,9 +1,16 @@
 # Music Streaming System
  * This project is a Java and Spring Boot based music streaming system. The project utilizes the MVC (Model-View-Controller) architecture to ensure that the code is modular and easily readable. The music streaming system has two models, the admin and user, and their respective permissions to perform CRUD (Create, Read, Update, Delete) operations on songs and playlists.
+ 
+ ## Screenshots
+  ![Screenshot 2023-04-05 074124](https://user-images.githubusercontent.com/111841729/229968485-efb7bddd-7745-41fe-9d8a-951b82b7c58b.png)
+![SwagegrDeployment](https://user-images.githubusercontent.com/111841729/229968507-fa0c1908-1d65-4859-ac1a-346bd8322552.png)
+ ![Beige Minimalist Mood Photo Collage (1)](https://user-images.githubusercontent.com/111841729/229968238-e65bf4c9-b11f-457b-a2c6-af3dd7cadd87.png)
+ ![Beige Minimalist Mood Photo Collage](https://user-images.githubusercontent.com/111841729/229968262-9e2b51bd-3347-46bd-aa70-ddcae06bb4d7.png) 
+ ![Beige Minimalist Mood Photo Collage (2)](https://user-images.githubusercontent.com/111841729/229969636-9bf2a2d1-64e4-4fd7-b9f5-999bd79e72e1.png)
+
 
 # Technologies Used
  The following technologies were used to build this music streaming system:
-
 * Spring Boot
 * Java
 * MySQL database/SQL
@@ -12,6 +19,7 @@
 
 * Controller
 The request comes from the client-side and hits the controller class, which then processes the request based on the request type and endpoints declared in the controller class's methods using annotations. The methods of the service class are called from the controller class.
+
 
 * Service
 The service class contains the main business logic for the music streaming system. The methods of the service class are called from the controller class, where we use in-built or native queries of the repository interface.
